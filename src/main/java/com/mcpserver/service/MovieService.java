@@ -16,7 +16,6 @@ public class MovieService {
         this.restClient=RestClient.builder()
                 .baseUrl("https://www.omdbapi.com")
                 .defaultHeader("Accept","Application/json")
-              //  .defaultHeader("User-agent","WeatherApiClient/1.0 hei.marc.3@gmail.com")
                 .build();
     }
     @Tool(description = "Retrieve film or serie information by titles")
